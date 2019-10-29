@@ -259,7 +259,7 @@ Weitere Informationen über OpenHab findet sich in den [Ersten Schritten](https:
 Programmiermodus: **GPIO0** und **GND** mit einem Jumper verbinden, ESP8266 neu starten. Image mit [ESPTOOL](https://github.com/themadinventor/esptool) flashen:
 
 #### MacOSX (im Beispiel wird NodeMCU "installiert")
-````
+```
 python ./esptool.py --port=/dev/cu.SLAB_USBtoUART  write_flash  -fm=dio -fs=32m 0x00000 ../nodemcu-master-8-modules-2015-09-01-02-42-13-float.bin
 
 Connecting...
